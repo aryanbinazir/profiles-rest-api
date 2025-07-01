@@ -15,6 +15,7 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.test_venv" />
+      <excludeFolder url="file://$MODULE_DIR$/test_venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.13 (profiles-rest-api)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
