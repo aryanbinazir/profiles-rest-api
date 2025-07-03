@@ -7,5 +7,6 @@ urlpatterns = [
 ]
 
 router = DefaultRouter()
-router.register("hello-viewset", views.HelloViewSet, basename='hello')
+router.register("hello-viewset", views.HelloViewSet, basename='hello-viewset')
+router.register('profiles', views.UserProfileViewSet)
 urlpatterns += router.urls
