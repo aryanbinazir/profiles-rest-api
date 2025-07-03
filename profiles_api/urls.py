@@ -3,7 +3,8 @@ from . import views
 from rest_framework.routers import DefaultRouter
 
 urlpatterns = [
-    path('hello-view/', views.HelloApiView.as_view())
+    path('hello-view/', views.HelloApiView.as_view()),
+    path('login/', views.UserLoginApiView.as_view())
 ]
 
 router = DefaultRouter()
